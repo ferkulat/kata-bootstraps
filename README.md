@@ -1,12 +1,12 @@
 # kata-bootstraps
 
-[![GitSpo Mentions](https://gitspo.com/badges/mentions/swkBerlin/kata-bootstraps?style=flat-square)](https://gitspo.com/mentions/swkBerlin/kata-bootstraps)
 [![java-ci-badge]][ci-actions]
 [![php-ci-badge]][ci-actions]
 [![rust-ci-badge]][ci-actions]
 [![python-ci-badge]][ci-actions]
 [![scala-ci-badge]][ci-actions]
 [![node-ci-badge]][ci-actions]
+[![go-ci-badge]][ci-actions]
 
 
 
@@ -33,4 +33,5 @@ You are welcome to contribute by submitting likewise a min setup for your langua
 [python-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Python%20CI/badge.svg "CI build status"
 [scala-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Scala%20CI/badge.svg "CI build status"
 [node-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Node%20CI/badge.svg "CI build status"
+[go-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/GO%20CI/badge.svg "CI build status"
 [ci-actions]: https://github.com/swkBerlin/kata-bootstraps/actions
