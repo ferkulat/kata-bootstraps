@@ -1,13 +1,15 @@
 project(kata)
 
-cmake_minimum_required(VERSION 2.8)
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules ${CMAKE_MODULE_PATH})
+include(CppResultType)
+cmake_minimum_required(VERSION 3.15)
 
 enable_testing()
 
 ####################################################
 # Set the C++ Standard to be used (Default to C++11)
 ####################################################
-set(CXX_STANDARD 11)
+set(CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED ON)
 
 ####################################################################
@@ -33,5 +35,6 @@ list(APPEND UNIT_TESTS
 ####################################################
 foreach(TEST ${UNIT_TESTS})
     add_executable(${TEST} "${CMAKE_SOURCE_DIR}/src/${TEST}.cpp")
+    target_link_libraries(${TEST} cppresulttype)
     add_test(${TEST} ${TEST})
 endforeach()
